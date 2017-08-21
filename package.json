@@ -1,0 +1,24 @@
+{
+  "name": "treenode",
+  "version": "1.0.0",
+  "description": "Can create a tree even when a target node in an array of nodes doesn't have its parent in the tree yet",
+  "main": "treenode.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha treenode.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teachrdan/treenode.git"
+  },
+  "author": "Dan Tennery-Spalding",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teachrdan/treenode/issues"
+  },
+  "homepage": "https://github.com/teachrdan/treenode#readme"
+}
