@@ -1,4 +1,4 @@
-export default class TreeNode {
+class TreeNode {
 	constructor(obj, level=1) {
 		this.children = [];
 		this.id = obj.id;
@@ -35,3 +35,5 @@ export default class TreeNode {
 		}
 	}
 };
+
+module.exports = TreeNode;
